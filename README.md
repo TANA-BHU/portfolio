@@ -1,6 +1,15 @@
-# AI Software Engineer | Deep Learning & Systems Optimization
+# Tanayendu Bari
 
-#### Technical Skills: Python, C++, SQL, PyTorch, TensorFlow, Docker, Hugging Face Transformers, Performance Profiling, Distributed Training, Intel Accelerators (Falcon Shores, Gaudi3)
+### AI Software Engineer | Deep Learning & Systems Optimization
+
+#### Technical Skills:
+- **Programming Languages:** Python, C, C++, SQL  
+- **Frameworks & Libraries:** PyTorch, TensorFlow, Hugging Face Transformers  
+- **Tools & Platforms:** Docker, Git, RoboFlow  
+- **Optimization & Systems:** Performance Profiling, Distributed Training, Multi-node Inference  
+- **Accelerators:** Intel Falcon Shores, Intel Gaudi3  
+- **Evaluation & Tuning:** LoRA, SHAP, lm-evaluation-harness  
+- **Other Concepts:** Retrieval-Augmented Generation (RAG), XAI, Data Augmentation, CNN, BERT, GAN, LLaMA, SDXL, LLaVA
 
 ## Education
 
@@ -50,7 +59,7 @@ Led a 3-member team to build a CNN-based object detection pipeline using custom 
 
 **Tools & Concepts:** CNN, OpenCV, RoboFlow, Image Annotation
 
-### Fake Currency Detection using CNN
+### [Fake Currency Detection using CNN](https://github.com/TANA-BHU/FAKE-CURRENCY-DETECTION-USING-CNN)
 
 Built a CNN classifier on high-res annotated images for counterfeit detection. Incorporated data augmentation and preprocessing.
 
@@ -58,8 +67,8 @@ Built a CNN classifier on high-res annotated images for counterfeit detection. I
 
 ### Additional Projects
 
-* **Anime Face Generator (DCGAN)** — TensorFlow-based GAN model for generating anime faces.
-* **Realistic Face Generator (GAN)** — Generated human-like faces using GANs.
+* [**Anime Face Generator (DCGAN)**](https://github.com/TANA-BHU/ANIME-FACE-GENERATION-USING-DCGAN) — TensorFlow-based GAN model for generating anime faces.
+* [**Realistic Face Generator (Vanilla GAN)**](https://github.com/TANA-BHU/REALISTIC-RANDOM-FACE-IMAGE-GENERATION-USING-VANILA-GAN) — Generated human-like faces using GANs.
 * **Movie Recommendation System** — Implemented collaborative filtering with cosine similarity.
 
 ## Certifications
@@ -77,3 +86,8 @@ Built a CNN classifier on high-res annotated images for counterfeit detection. I
 * [GitHub: TANA-BHU](https://github.com/TANA-BHU)
 * [GitHub (Alt): lag-tan-69](https://github.com/lag-tan-69)
 * [LinkedIn](https://www.linkedin.com/in/tanayendu-bari-100b70229/)
+
+## Contact
+
+* 📧 Email: baritanayendy24199@gmail.com  
+* 📱 Phone: +91-7586043649
