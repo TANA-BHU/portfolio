@@ -1,6 +1,6 @@
 # Tanayendu Bari
 
-![Profile Banner](https://raw.githubusercontent.com/TANA-BHU/TANA-BHU/main/assets/banner.png)
+
 
 ### 🚀 AI Software Engineer | Deep Learning & Systems Optimization
 
