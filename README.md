@@ -4,16 +4,17 @@
 
 ## Education
 
-* **M.Tech, Artificial Intelligence** | National Institute of Technology Agartala (*Aug 2023 – Jul 2025*)
+* **M.Tech, Artificial Intelligence** | ![NIT Agartala Logo](https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/NIT_Agartala_Logo.svg/120px-NIT_Agartala_Logo.svg.png) National Institute of Technology Agartala (*Aug 2023 – Jul 2025*)  
   CGPA: 8.2
-* **M.Sc., Computer Science** | Banaras Hindu University (*Dec 2021 – Jul 2023*)
+* **M.Sc., Computer Science** | ![BHU Logo](https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Banaras_Hindu_University_Logo.svg/120px-Banaras_Hindu_University_Logo.svg.png) Banaras Hindu University (*Dec 2021 – Jul 2023*)  
   CGPA: 7.5
-* **B.Sc., Computer Science** | Panskura Banamali College (*Jul 2017 – Aug 2020*)
+* **B.Sc., Computer Science** | ![BHU Logo](https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Banaras_Hindu_University_Logo.svg/120px-Banaras_Hindu_University_Logo.svg.png) Banaras Hindu University (*Dec 2021 – Jul 2023*)  
   CGPA: 7.11
 
 ## Work Experience
 
-**AI Software Engineer Intern @ Intel Technology India Pvt. Ltd. (*Jul 2024 – Present*)**
+**AI Software Engineer Intern @** ![Intel Logo](https://upload.wikimedia.org/wikipedia/commons/c/c9/Intel_logo_(2020).svg "Intel") Intel Technology India Pvt. Ltd. (*Jul 2024 – Present*)
+
 
 * Optimized training and inference pipelines for LLMs and multimodal AI workloads on Intel accelerators (Falcon Shores, Gaudi3).
 * Contributed to enabling and fine-tuning models like LLaMA, SDXL, and LLaVA for memory efficiency, runtime stability, and distributed scaling.
@@ -21,7 +22,7 @@
 * Integrated and optimized models within SGLANG for secure, scalable generative language inference.
 * Evaluated model performance with lm-evaluation-harness and Hugging Face tools.
 
-**Teaching Assistant @ National Institute of Technology Agartala (*Sep 2023 – Jun 2024*)**
+**Teaching Assistant @** ![NIT Agartala Logo](https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/NIT_Agartala_Logo.svg/120px-NIT_Agartala_Logo.svg.png) National Institute of Technology Agartala (*Sep 2023 – Jun 2024*)
 
 * Assisted faculty in delivering lectures, managing lab sessions, and evaluating assignments for courses such as Machine Learning, Deep Learning, and Data Structures.
 * Provided academic support to undergraduate students by clarifying concepts and guiding project work.
