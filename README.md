@@ -37,11 +37,12 @@ Built a system combining LLaMA-based fine-tuned LLMs with RAG on CICIDS2017 logs
 
 **Tools & Concepts:** Python, PyTorch, LoRA, RAG, SHAP, Focal Loss, XAI
 
-### Anomaly Detection using BERT
+### ![BERT Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/BERT_logo.svg/120px-BERT_logo.svg.png "BERT") [Anomaly Detection using BERT](https://github.com/TANA-BHU/System-log-analyzer-using-BERT)
 
 Applied fine-tuned BERT on HDFS logs for anomaly detection via sequence classification.
 
 **Tools & Concepts:** Python, BERT, Anomaly Detection, Sequence Modeling
+
 
 ### Pen Detection System
 
