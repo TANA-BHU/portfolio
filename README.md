@@ -4,20 +4,16 @@
 
 ## Education
 
-* **M.Tech, Artificial Intelligence** | ![NIT Agartala Logo](![image](https://github.com/user-attachments/assets/10a1f80b-d6f9-436e-8928-32f534994551)
-) National Institute of Technology Agartala (*Aug 2023 – Jul 2025*)  
+* **M.Tech, Artificial Intelligence** | National Institute of Technology Agartala (*Aug 2023 – Jul 2025*)  
   CGPA: 8.2
-* **M.Sc., Computer Science** | ![BHU Logo](![image](https://github.com/user-attachments/assets/5ac1b2d2-95be-444b-88bc-68bede19bf41)
-) Banaras Hindu University (*Dec 2021 – Jul 2023*)  
+* **M.Sc., Computer Science** | Banaras Hindu University (*Dec 2021 – Jul 2023*)  
   CGPA: 7.5
-* **B.Sc., Computer Science** | ![VU Logo](![image](https://github.com/user-attachments/assets/1ba4f97e-05ca-4f87-b9fe-5574acde3645)
-) Vidyasagra University (*Aug 2017 – Sept 2020*)  
+* **B.Sc., Computer Science** | Vidyasagra University (*Aug 2017 – Sept 2020*)  
   CGPA: 7.11
 
 ## Work Experience
 
-**AI Software Engineer Intern @** ![Intel Logo](![image](https://github.com/user-attachments/assets/0356b04c-e28a-4999-819c-16e2dae6e6be)
-) Intel Technology India Pvt. Ltd. (*Jul 2024 – Present*)
+**AI Software Engineer Intern @**  Intel Technology India Pvt. Ltd. (*Jul 2024 – Present*)
 
 
 * Optimized training and inference pipelines for LLMs and multimodal AI workloads on Intel accelerators (Falcon Shores, Gaudi3).
@@ -26,7 +22,7 @@
 * Integrated and optimized models within SGLANG for secure, scalable generative language inference.
 * Evaluated model performance with lm-evaluation-harness and Hugging Face tools.
 
-**Teaching Assistant @** ![NIT Agartala Logo](![image](https://github.com/user-attachments/assets/10a1f80b-d6f9-436e-8928-32f534994551) National Institute of Technology Agartala (*Sep 2023 – Jun 2024*)
+**Teaching Assistant @** National Institute of Technology Agartala (*Sep 2023 – Jun 2024*)
 
 * Assisted faculty in delivering lectures, managing lab sessions, and evaluating assignments for courses such as Machine Learning, Deep Learning, and Data Structures.
 * Provided academic support to undergraduate students by clarifying concepts and guiding project work.
