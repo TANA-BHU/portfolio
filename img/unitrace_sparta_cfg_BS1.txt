@@ -1,0 +1,48 @@
+*****************************************************************************
+The SetBufferHostMemoryAlwaysAubWritable environment variable is set to 1. 
+The default value for the batch_decode flag is set to True.
+The default value for v is set to 3.
+To use batch_decode for llama v3.1: 
+                        ./run.sh  --device xpu --mode compile --precision fp32 --num_layers 1 --hidden_size 4 --attn_head 2 --ffn_dim 16.
+To disable batch_decode for llama v3.1: 
+                        ./run.sh  --device xpu --mode compile --precision fp32 --num_layers 1 --hidden_size 4 --attn_head 2 --ffn_dim 16 --batch_decode False
+ To use llama v2, use --v 2. 
+                        e.g: ./run.sh  --device xpu --mode compile --v 2 --precision fp32 --num_layers 1 --hidden_size 4 --attn_head 2 --ffn_dim 16.
+*****************************************************************************
+running: ENABLE_SDP_FUSION=1 python -u /root/trees/fs/frameworks.ai.pytorch.gpu-models/LLM/llama/text-generation/run_llama.py --device xpu     --model-dir /software/data/pytorch/llama3.1/Meta-Llama-3.1-70B-Instruct     --dtype bfloat16     --greedy      --mode compile --compile-backend ipex     --input-tokens 7     --max-new-tokens 2     --num-warmup 0     --num-iter 1     --batch-size 1     --num_layers 1     --hidden_size 512     --attn_head 16     --ffn_dim 2048     --batch_decode True     --prompt="once upon time there was a" --ipex_optimize 
+[W317 07:40:48.527385531 OperatorEntry.cpp:155] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::binary_cross_entropy(Tensor self, Tensor target, Tensor? weight=None, int reduction=1) -> Tensor
+    registered at /home/jenkins/workspace/falcon_shores/build-private-gpu/frameworks.ai.pytorch.private-gpu/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastXPU
+  previous kernel: registered at /home/jenkins/workspace/falcon_shores/build-private-gpu/frameworks.ai.pytorch.private-gpu/aten/src/ATen/autocast_mode.cpp:169
+       new kernel: registered at /home/jenkins/workspace/falcon_shores/build-ipex-gpu/frameworks.ai.pytorch.ipex-gpu/csrc/gpu/aten/amp/autocast_mode.cpp:14 (function operator())
+/usr/local/lib/python3.10/dist-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: 'libjpeg.so.9: cannot open shared object file: No such file or directory'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+Namespace(model_dir='/software/data/pytorch/llama3.1/Meta-Llama-3.1-70B-Instruct', device='xpu', dtype='bfloat16', max_new_tokens=2, greedy=True, ipex_optimize=True, mode='compile', compile_backend='ipex', jit=False, input_tokens='7', prompt='once upon time there was a', num_iter=1, num_warmup=0, batch_size=1, print_memory=False, token_latency=False, disable_optimize_transformers=False, hidden_size=512, num_layers=1, attn_head=16, ffn_dim=2048, architectures='LlamaForCausalLM', batch_decode='True', record_shapes=False, tensor_guard=False, deterministic=False)
+[W317 07:40:52.212151529 OperatorEntry.cpp:155] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::binary_cross_entropy(Tensor self, Tensor target, Tensor? weight=None, int reduction=1) -> Tensor
+    registered at /home/jenkins/workspace/falcon_shores/build-private-gpu/frameworks.ai.pytorch.private-gpu/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastXPU
+  previous kernel: registered at /home/jenkins/workspace/falcon_shores/build-private-gpu/frameworks.ai.pytorch.private-gpu/aten/src/ATen/autocast_mode.cpp:169
+       new kernel: registered at /home/jenkins/workspace/falcon_shores/build-ipex-gpu/frameworks.ai.pytorch.ipex-gpu/csrc/gpu/aten/amp/autocast_mode.cpp:14 (function operator())
+/usr/local/lib/python3.10/dist-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: 'libjpeg.so.9: cannot open shared object file: No such file or directory'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/30 [00:00<00:04,  6.38it/s]Loading checkpoint shards:   7%|▋         | 2/30 [00:00<00:03,  7.31it/s]Loading checkpoint shards:  10%|█         | 3/30 [00:00<00:03,  7.50it/s][WARNING] Unable to get device PCI properties
+Loading checkpoint shards:  13%|█▎        | 4/30 [00:00<00:03,  7.44it/s]Loading checkpoint shards:  17%|█▋        | 5/30 [00:00<00:03,  7.66it/s]Loading checkpoint shards:  20%|██        | 6/30 [00:00<00:03,  7.84it/s]Loading checkpoint shards:  23%|██▎       | 7/30 [00:00<00:02,  7.97it/s]Loading checkpoint shards:  27%|██▋       | 8/30 [00:01<00:02,  7.94it/s]Loading checkpoint shards:  30%|███       | 9/30 [00:01<00:02,  8.03it/s]Loading checkpoint shards:  33%|███▎      | 10/30 [00:01<00:02,  8.06it/s]Loading checkpoint shards:  37%|███▋      | 11/30 [00:01<00:02,  8.12it/s]Loading checkpoint shards:  40%|████      | 12/30 [00:01<00:02,  8.12it/s]Loading checkpoint shards:  43%|████▎     | 13/30 [00:01<00:02,  8.15it/s]Loading checkpoint shards:  47%|████▋     | 14/30 [00:01<00:01,  8.20it/s]Loading checkpoint shards:  50%|█████     | 15/30 [00:01<00:01,  8.25it/s]Loading checkpoint shards:  53%|█████▎    | 16/30 [00:02<00:01,  8.27it/s]Loading checkpoint shards:  57%|█████▋    | 17/30 [00:02<00:01,  8.29it/s]Loading checkpoint shards:  60%|██████    | 18/30 [00:02<00:01,  8.07it/s]Loading checkpoint shards:  63%|██████▎   | 19/30 [00:02<00:01,  8.01it/s]Loading checkpoint shards:  67%|██████▋   | 20/30 [00:02<00:01,  8.10it/s]Loading checkpoint shards:  70%|███████   | 21/30 [00:02<00:01,  8.15it/s]Loading checkpoint shards:  73%|███████▎  | 22/30 [00:02<00:00,  8.20it/s]Loading checkpoint shards:  77%|███████▋  | 23/30 [00:02<00:00,  8.25it/s]Loading checkpoint shards:  80%|████████  | 24/30 [00:02<00:00,  8.32it/s]Loading checkpoint shards:  83%|████████▎ | 25/30 [00:03<00:00,  8.35it/s]Loading checkpoint shards:  87%|████████▋ | 26/30 [00:03<00:00,  8.22it/s]Loading checkpoint shards:  90%|█████████ | 27/30 [00:03<00:00,  8.17it/s]Loading checkpoint shards:  93%|█████████▎| 28/30 [00:03<00:00,  8.19it/s]Loading checkpoint shards:  97%|█████████▋| 29/30 [00:03<00:00,  8.23it/s]Loading checkpoint shards: 100%|██████████| 30/30 [00:03<00:00,  8.10it/s]Loading checkpoint shards: 100%|██████████| 30/30 [00:03<00:00,  8.05it/s]
+Some weights of LlamaForCausalLMCustom were not initialized from the model checkpoint at /software/data/pytorch/llama3.1/Meta-Llama-3.1-70B-Instruct and are newly initialized because the shapes did not match:
+- model.embed_tokens.weight: found shape torch.Size([128256, 8192]) in the checkpoint and torch.Size([128256, 512]) in the model instantiated
+- model.layers.0.input_layernorm.weight: found shape torch.Size([8192]) in the checkpoint and torch.Size([512]) in the model instantiated
+- model.layers.0.mlp.down_proj.weight: found shape torch.Size([8192, 28672]) in the checkpoint and torch.Size([512, 2048]) in the model instantiated
+- model.layers.0.mlp.gate_proj.weight: found shape torch.Size([28672, 8192]) in the checkpoint and torch.Size([2048, 512]) in the model instantiated
+- model.layers.0.mlp.up_proj.weight: found shape torch.Size([28672, 8192]) in the checkpoint and torch.Size([2048, 512]) in the model instantiated
+- model.layers.0.post_attention_layernorm.weight: found shape torch.Size([8192]) in the checkpoint and torch.Size([512]) in the model instantiated
+- model.layers.0.self_attn.k_proj.weight: found shape torch.Size([1024, 8192]) in the checkpoint and torch.Size([512, 512]) in the model instantiated
+- model.layers.0.self_attn.o_proj.weight: found shape torch.Size([8192, 8192]) in the checkpoint and torch.Size([512, 512]) in the model instantiated
+- model.layers.0.self_attn.q_proj.weight: found shape torch.Size([8192, 8192]) in the checkpoint and torch.Size([512, 512]) in the model instantiated
+- model.layers.0.self_attn.v_proj.weight: found shape torch.Size([1024, 8192]) in the checkpoint and torch.Size([512, 512]) in the model instantiated
+- model.norm.weight: found shape torch.Size([8192]) in the checkpoint and torch.Size([512]) in the model instantiated
+- lm_head.weight: found shape torch.Size([128256, 8192]) in the checkpoint and torch.Size([128256, 512]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[WARNING] Unable to get device PCI properties

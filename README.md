@@ -62,13 +62,13 @@ Built a CNN classifier on high-res annotated images for counterfeit detection. I
 
 ## Certifications
 
-* Joy of Computing with Python – NPTEL
-* Data Analytics with Python – NPTEL
-* Optimization for Machine Learning – NPTEL
+* - [Joy of Computing with Python – NPTEL](https://drive.google.com/file/d/1wJHQmpIlYRVidnqM0-rMRhd9AY1YQl6P/view?usp=sharing)
+* - [Data Analytics with Python – NPTEL](https://drive.google.com/file/d/16Bw05bbZR6ilM9m8a3YEBrKzTEWhE3ce/view?usp=sharing)
+* - [Optimisation for Machine Learning – NPTEL](https://drive.google.com/file/d/1TAooxWvJqCH6cbChCH09EZazWNf1pz7G/view?usp=sharing)
 
 ## Extracurricular
 
-* **GATE Qualified** (Computer Science)
+* [**GATE Qualified** (Computer Science)](https://drive.google.com/file/d/1mVyPBpO9yPawyZ2WduAUcVk0KYB9LsF1/view?usp=sharing})
 
 ## GitHub & Links
 
