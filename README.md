@@ -92,9 +92,14 @@ Classifies counterfeit currency using high-res images and CNN. Uses preprocessin
 
 ---
 
-## 🏅 Extracurricular
+## 🏅 Achievements
 
 * [🎓 **GATE Qualified** (Computer Science)](https://drive.google.com/file/d/1mVyPBpO9yPawyZ2WduAUcVk0KYB9LsF1/view?usp=sharing)
+
+### 🧠 Other Competitive Exams
+* Secured **AIR 10** in **BHU-PET** (M.Sc. Computer Science Entrance)  
+* Secured **AIR 3** in **CUCET** (M.Sc. Computer Science Entrance)
+
 
 ---
 
