@@ -84,11 +84,12 @@ Classifies counterfeit currency using high-res images and CNN. Uses preprocessin
 
 ---
 
-
+{%
 ## 🌍 Open Source & Community Contributions
 
 * Fixed a `RuntimeError` in Hugging Face’s Optimum-Habana repo by cloning a tensor before an in-place operation in `modeling_mllama.py` to prevent memory overlap issues during generation.  
   [🔗 Pull Request](https://github.com/huggingface/optimum-habana/pull/1976)
+%}
 
 ---
 
