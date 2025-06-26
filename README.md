@@ -103,6 +103,7 @@ Classifies counterfeit currency using high-res images and CNN. Uses preprocessin
 * [🔗 GitHub: TANA-BHU](https://github.com/TANA-BHU)  
 * [🔗 GitHub (Alt): lag-tan-69](https://github.com/lag-tan-69)  
 * [🔗 LinkedIn](https://www.linkedin.com/in/tanayendu-bari-100b70229/)
+* [🔗 Blog](https://hashnode.com/@lagran)
 
 ---
 
