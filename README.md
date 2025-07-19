@@ -1,8 +1,8 @@
 # Tanayendu Bari
 
-
-
 ### 🚀 AI Software Engineer | Deep Learning & Systems Optimization
+
+**🤖 Currently Building:** AI-Powered Terminal Agent - A production-ready tool that translates natural language into Ubuntu system commands (pip install termia) 
 
 #### 🧠 Technical Skills
 
@@ -29,7 +29,7 @@
 
 ## 💼 Work Experience
 
-### 👨‍💻 AI Software Engineer Intern @ Intel Technology India Pvt. Ltd. *(Jul 2024 – Present)*
+### 👨‍💻 AI Software Engineer Intern @ Intel Technology India Pvt. Ltd. *(Jul 2024 – Jul 2025)*
 
 * Optimized training and inference pipelines for LLMs and multimodal AI workloads on Intel Falcon Shores and Gaudi3.  
 * Fine-tuned models like **LLaMA**, **SDXL**, and **LLaVA** with focus on memory efficiency and scalability.  
@@ -47,6 +47,13 @@
 ---
 
 ## 📁 Projects
+
+### 🤖 AI-Powered Terminal Agent *(Current Project)*
+
+Building a production-ready AI agent that translates natural language into Ubuntu system commands. Users can interact with their terminal using plain English like "install nodejs" or "show memory usage" and the agent intelligently executes appropriate system commands.  
+**Tech:** Python, Natural Language Processing, System Integration, Package Development  
+**Features:** Pip-installable package, real-time command execution, intelligent command interpretation, system monitoring  
+**Status:** Developing as open-source tool with pip distribution
 
 ### 🔐 HyRIDS: Hybrid Retrieval-Augmented Intrusion Detection System
 
@@ -84,9 +91,6 @@ Classifies counterfeit currency using high-res images and CNN. Uses preprocessin
 
 ---
 
-
----
-
 ## 🏅 Achievements
 
 * [🎓 **GATE Qualified** (Computer Science)](https://drive.google.com/file/d/1mVyPBpO9yPawyZ2WduAUcVk0KYB9LsF1/view?usp=sharing)
@@ -94,7 +98,6 @@ Classifies counterfeit currency using high-res images and CNN. Uses preprocessin
 ### 🧠 Other Competitive Exams
 * Secured **AIR 10** in **BHU-PET** (M.Sc. Computer Science Entrance)  
 * Secured **AIR 3** in **CUCET** (M.Sc. Computer Science Entrance)
-
 
 ---
 
